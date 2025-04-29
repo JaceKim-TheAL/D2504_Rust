@@ -272,7 +272,7 @@ $ cargo build
 러스트에서 사용되는 보편적인 프로그래밍 개념부터 살펴보실 분들은
 3장부터 읽고 2장을 읽는 것도 나쁘지 않습니다.
 
-[installation]: ch01-01-installation.html#러스트-설치
+[installation]: ./S01_01_Rust설치.md#러스트-설치
 [toml]: https://toml.io
 [appendix-e]: appendix-05-editions.html
 [cargo]: https://doc.rust-lang.org/cargo/
