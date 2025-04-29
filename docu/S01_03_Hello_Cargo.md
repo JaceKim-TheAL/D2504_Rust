@@ -25,7 +25,7 @@
 지칭하겠습니다.)
 
 여태 우리가 작성해 본 간단한 러스트 프로그램에는 의존성을 추가하지 않았습니다.
-카고를 가지고 ‘Hello, world!’ 프로젝트를 만들었다면, 코드 빌드를 처리하는
+카고를 가지고 ‘Hello, Cargo!’ 프로젝트를 만들었다면, 코드 빌드를 처리하는
 카고의 기능 일부만을 사용했을 것입니다. 훗날 복잡한 프로그램을 작성하게
 되면 의존성을 추가하게 될 것이고, 카고를 사용하여 프로젝트를 시작하면
 의존성을 추가하는 일이 훨씬 더 쉬워질 것입니다.
@@ -48,7 +48,7 @@ $ cargo --version
 ### 카고로 프로젝트 생성하기
 
 카고로 프로젝트를 생성해 보고
-앞서 만들었던 ‘Hello, world!’ 프로젝트와 비교해 봅시다.
+앞서 만들었던 ‘Hello, World!’ 프로젝트와 비교해 봅시다.
 *projects* 디렉터리로 (다른 곳에 코드를 만드신 분은 해당 위치로)
 돌아가 다음 명령어를 실행해 보세요.
 
@@ -114,11 +114,11 @@ Language*) 포맷으로 되어있고, 이 포맷은 카고 설정에서 사용�
 
 ```rust
 fn main() {
-    println!("Hello, world!");
+    println!("Hello, Cargo!");
 }
 ```
 
-카고가 ‘Hello, world!’ 프로그램을 만들어 놨네요.
+카고가 ‘Hello, Cargo!’ 프로그램을 만들어 놨네요.
 예제 1-1에서 만든 프로젝트와 다른 점은
 이번엔 코드 위치가 *src* 디렉터리라는 점과
 최상위 디렉터리에 *Cargo.toml* 설정 파일이 존재한다는 점입니다.
@@ -129,14 +129,14 @@ fn main() {
 이처럼 카고는 각각의 파일을 알맞은 위치에 배치하여
 여러분이 프로젝트를 조직화하는 걸 돕습니다.
 
-‘Hello, world!’ 프로젝트에서처럼 프로젝트 생성 시 카고를
+‘Hello, Cargo!’ 프로젝트에서처럼 프로젝트 생성 시 카고를
 사용하지 않았어도, *Cargo.toml* 파일을 알맞게 작성하고 프로젝트
 코드를 *src* 디렉터리로 옮기면, 카고를 사용하는 프로젝트로 변경이
 가능합니다.
 
 ### 카고로 프로젝트를 빌드하고 실행하기
 
-이제 카고로 생성한 ‘Hello, world!’ 프로그램은 빌드하고 실행했을
+이제 카고로 생성한 ‘Hello, Cargo!’ 프로그램은 빌드하고 실행했을
 때 어떤 점이 다른지 확인해 봅시다! *hello_cargo* 디렉터리에서
 다음 명령어를 이용해 프로젝트를 빌드해주세요:
 
@@ -153,10 +153,10 @@ $ cargo build
 
 ```console
 $ ./target/debug/hello_cargo # or .\target\debug\hello_cargo.exe on Windows
-Hello, world!
+Hello, Cargo!
 ```
 
-터미널에 `Hello, world!`가 출력되면 제대로 진행된 겁니다.
+터미널에 `Hello, Cargo!`가 출력되면 제대로 진행된 겁니다.
 처음 `cargo build` 명령어를 실행하면 최상위 디렉터리에
 *Cargo.lock* 파일이 생성될 텐데, 이 파일은 프로젝트에서
 사용하는 의존성의 정확한 버전을 자동으로 기록해 두는
@@ -171,7 +171,7 @@ Hello, world!
 $ cargo run
     Finished dev [unoptimized + debuginfo] target(s) in 0.0 secs
      Running `target/debug/hello_cargo`
-Hello, world!
+Hello, Cargo!
 ```
 
 `cargo run`을 사용하면 `cargo build` 실행 후 바이너리 경로를
@@ -189,7 +189,7 @@ $ cargo run
    Compiling hello_cargo v0.1.0 (file:///projects/hello_cargo)
     Finished dev [unoptimized + debuginfo] target(s) in 0.33 secs
      Running `target/debug/hello_cargo`
-Hello, world!
+Hello, Cargo!
 ```
 
 카고에는 `cargo check`라는 명령어도 있는데, 이는 실행 파일은 생성하지 않고
@@ -264,7 +264,7 @@ $ cargo build
 * `rustup` 으로 최신 stable 버전 러스트를 설치하기
 * 러스트를 새 버전으로 업데이트하기
 * 로컬 설치된 문서 열어보기
-* 직접 `rustc`를 사용해 ‘Hello, world!’ 프로그램을 작성하고 실행해 보기
+* 직접 `rustc`를 사용해 ‘Hello, Cargo!’ 프로그램을 작성하고 실행해 보기
 * 일반적인 카고의 사용법으로 프로젝트를 생성하고 실행하기
 
 지금이 좀 더 실질적인 프로그램을 만들어 코드를 읽고 쓰는 데 익숙해지기
