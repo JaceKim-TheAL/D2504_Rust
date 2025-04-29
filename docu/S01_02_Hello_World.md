@@ -1,5 +1,7 @@
 <p style="text-align: right"> 
-    <a href="./README.md">[INDEX]</a>
+    <a href="./README.md">[INDEX]</a> 
+    &#9;
+    <a href="./S01_00_Rust시작.md">[S01. Rust 시작]</a>
 </p>
 
 # S01. Rust 시작
@@ -13,3 +15,4 @@
 [S01_03_H_Cargo]: ./S01_03_Hello_Cargo.md
 
 ---
+### 2. Hello, World
