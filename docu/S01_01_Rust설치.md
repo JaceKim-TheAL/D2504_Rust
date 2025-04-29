@@ -6,9 +6,11 @@
 
 # S01. Rust 시작
 
-* 각 운영체제 (Linux, macOS, Windows) 별 러스트 설치법
-* `Hello, world!` 프로그램 작성하기
-* 러스트 패키지 매니저 및 빌드 도구인 `cargo` 사용법
+* [각 운영체제 (Linux, macOS, Windows) 별 러스트 설치법 ][S01_01_Rust설치]
+* [`Hello, world!` 프로그램 작성하기                   ][S01_01_Rust설치]  
+* [러스트 패키지 매니저 및 빌드 도구인 `cargo` 사용법      ][S01_01_Rust설치]
+
+[S01_01_Rust설치]: ./S01_01_Rust설치.md
 
 ---
 ### 1. Rust 설치
