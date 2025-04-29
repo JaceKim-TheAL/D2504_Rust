@@ -870,7 +870,7 @@ note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
 `Err`를 매칭하도록 했습니다. 따라서 프로그램은 두 번째 갈래의 코드인
 `continue`를 실행하며, 이는 `loop`의 다음 반복으로 가서 또 다른 추릿값을
 요청하도록 합니다. 따라서, 프로그램은 효과적으로 `parse`에서 발생할 수 있는
-모든 에러를 무시합니다!
+모든 에러를 무시합니다! 
 
 이제는 프로그램의 모든 부분이 예상한 대로 동작해야 합니다. 한번 시도해 봅시다:
 
