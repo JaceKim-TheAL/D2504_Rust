@@ -6,7 +6,7 @@
 # S01. Rust 시작
 
 * [1-1.][S01_01_Rust설치] 각 운영체제 (Linux, macOS, Windows) 별 러스트 설치법 
-* [1-2.][S01_02_H_World] `Hello, world!` 프로그램 작성하기
+* [1-2.][S01_02_H_World] `Hello, World!` 프로그램 작성하기
 * [1-3.][S01_03_H_Cargo] 러스트 패키지 매니저 및 빌드 도구인 `cargo` 사용법
 
 [S01_01_Rust설치]: ./S01_01_Rust설치.md
@@ -18,7 +18,7 @@
 
 설치도 마쳤으니, 러스트 프로그램을 만들 시간입니다.
 새 언어를 배울 때면 늘 그렇듯,
-만들어 볼 프로그램은 화면에 `Hello, world!` 문자를 출력하는 간단한 프로그램입니다.
+만들어 볼 프로그램은 화면에 `Hello, World!` 문자를 출력하는 간단한 프로그램입니다.
 
 > Note:
 > 이 책은 커맨드 라인 위주로 설명하고 있습니다.
@@ -36,7 +36,7 @@
 디렉터리를 생성해 각종 프로젝트를 보관하는 것을 권장해 드립니다.
 
 터미널을 열고 다음 명령어를 입력해 *projects* 디렉터리를 생성한 후,
-*projects* 내에 ‘Hello, world!’ 프로젝트용 디렉터리를 만들어 봅시다.
+*projects* 내에 ‘Hello, World!’ 프로젝트용 디렉터리를 만들어 봅시다.
 
 Linux, macOS, Windows PowerShell에서는 다음 명령어를 입력해 주세요:
 
@@ -69,11 +69,11 @@ Windows CMD 사용자는 다음 명령어를 입력해 주세요:
 
 ```rust
 fn main() {
-  println!("Hello, world!");
+  println!("Hello, World!");
 }
 ```
 
-<span class="caption">예제 1-1: `Hello, world!`를 출력하는 프로그램</span>
+<span class="caption">예제 1-1: `Hello, World!`를 출력하는 프로그램</span>
 
 파일을 저장하고 터미널 창으로 돌아가 *~/projects/hello_world*
 디렉터리로 갑니다. Linux, macOS 사용자는 다음 명령어를 입력하여
@@ -82,7 +82,7 @@ fn main() {
 ```console
 $ rustc main.rs
 $ ./main
-Hello, world!
+Hello, World!
 ```
 
 Windows에서는 `./main`을 `.\main.exe`로 바꿔주시면 됩니다:
@@ -90,20 +90,20 @@ Windows에서는 `./main`을 `.\main.exe`로 바꿔주시면 됩니다:
 ```powershell
 > rustc main.rs
 > .\main.exe
-Hello, world!
+Hello, World!
 ```
 
 사용하시는 운영체제와 상관없이
-터미널에 `Hello, world!`가 출력되면 정상입니다.
+터미널에 `Hello, World!`가 출력되면 정상입니다.
 출력되지 않으면 [‘트러블 슈팅’][troubleshooting]<!-- ignore -->
 내용을 참고해 도움을 얻을 방법을 찾아보세요.
 
-문제없이 `Hello, world!`가 출력됐다면, 축하드립니다! 여러분은 공식적으로
+문제없이 `Hello, World!`가 출력됐다면, 축하드립니다! 여러분은 공식적으로
 러스트 프로그램을 작성했으니 이제 어엿한 러스트 프로그래머입니다!
 
 ### 러스트 프로그램 뜯어보기
 
-방금 만든 ‘Hello, world!’ 프로그램을 자세히 살펴봅시다.
+방금 만든 ‘Hello, World!’ 프로그램을 자세히 살펴봅시다.
 우선 첫 부분은 다음과 같습니다:
 
 ```rust
@@ -131,7 +131,7 @@ fn main() {
 `main` 함수 내 코드를 살펴봅시다.
 
 ```rust
-    println!("Hello, world!");
+    println!("Hello, World!");
 ```
 
 화면에 텍스트를 출력하는 코드로, 이 한 라인이 이 자그마한 프로그램의 전부입니다.
@@ -145,7 +145,7 @@ fn main() {
 매크로 호출 코드이고, 매크로는 함수와 항상 같은 규칙을 따르지는 않는다는
 것만 알아두시면 됩니다.
 
-세 번째는 `println!`의 인수로 넘겨준 `"Hello, world!"` 문자열이
+세 번째는 `println!`의 인수로 넘겨준 `"Hello, World!"` 문자열이
 그대로 화면에 나타난 점입니다.
 
 마지막으로, 이 라인은 세미콜론(`;`)으로 끝납니다. 이 표현식이
@@ -196,8 +196,8 @@ Windows에서는 디버깅 정보가 포함된 *pdb* 확장자 파일도 볼 수
 $ ./main # Windows에서는 .\main.exe
 ```
 
-*main.rs*가 여러분의 ‘Hello, world!’ 프로그램이라면
-터미널에 `Hello, world!`가 출력될 겁니다.
+*main.rs*가 여러분의 ‘Hello, World!’ 프로그램이라면
+터미널에 `Hello, World!`가 출력될 겁니다.
 
 Ruby, Python, JavaScript 등 명령어 한 줄로 프로그램을 컴파일하고
 실행할 수 있는 동적 프로그래밍 언어에 익숙한 분들은 컴파일과 실행이
