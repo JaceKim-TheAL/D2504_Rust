@@ -1,0 +1,10 @@
+C:\GitHub\D2504_Rust\code\S02_Rust실행\guessing_game\target\debug\deps\librandom_number-1987a4e1aa2a73aa.rmeta: C:\Users\bigpy\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\random-number-0.1.9\src\lib.rs C:\Users\bigpy\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\random-number-0.1.9\src\bounded.rs C:\Users\bigpy\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\random-number-0.1.9\src\random_fill_functions.rs C:\Users\bigpy\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\random-number-0.1.9\src\random_functions.rs
+
+C:\GitHub\D2504_Rust\code\S02_Rust실행\guessing_game\target\debug\deps\librandom_number-1987a4e1aa2a73aa.rlib: C:\Users\bigpy\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\random-number-0.1.9\src\lib.rs C:\Users\bigpy\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\random-number-0.1.9\src\bounded.rs C:\Users\bigpy\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\random-number-0.1.9\src\random_fill_functions.rs C:\Users\bigpy\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\random-number-0.1.9\src\random_functions.rs
+
+C:\GitHub\D2504_Rust\code\S02_Rust실행\guessing_game\target\debug\deps\random_number-1987a4e1aa2a73aa.d: C:\Users\bigpy\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\random-number-0.1.9\src\lib.rs C:\Users\bigpy\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\random-number-0.1.9\src\bounded.rs C:\Users\bigpy\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\random-number-0.1.9\src\random_fill_functions.rs C:\Users\bigpy\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\random-number-0.1.9\src\random_functions.rs
+
+C:\Users\bigpy\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\random-number-0.1.9\src\lib.rs:
+C:\Users\bigpy\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\random-number-0.1.9\src\bounded.rs:
+C:\Users\bigpy\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\random-number-0.1.9\src\random_fill_functions.rs:
+C:\Users\bigpy\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\random-number-0.1.9\src\random_functions.rs:
